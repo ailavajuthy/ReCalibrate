@@ -108,7 +108,7 @@ def main():
             cv2.putText(frame, "Press 'c' to recalibrate, 'q' to quit", (20, h - 20),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 
-            cv2.imshow("Blink Rate Detector - StudySync", frame)
+            cv2.imshow("Blink Rate Detector - ReCalibrate", frame)
 
             key = cv2.waitKey(5) & 0xFF
             if key == ord('q'):
